@@ -1,0 +1,37 @@
+{
+  "defaultSeverity": "error",
+  // "rulesDirectory": ["tslint-plugin-prettier"],
+  // "extends": ["tslint-config-standard", "tslint-config-prettier"],
+  "extends": "tslint-config-standard",
+  "globals": {
+    "require": true
+  },
+  "rules": {
+    // "prettier": [
+    //   true,
+    //   {
+    //     "singleQuote": true,
+    //     "semi": false,
+    //     "trailingComma": "es5"
+    //   }
+    // ],
+    "space-before-function-paren": false,
+    "whitespace": [false],
+    "no-consecutive-blank-lines": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-empty-character-class": false,
+    //行尾多余空格提示
+    "no-trailing-whitespace": false,
+    //空格
+    "quotemark": [
+      false,
+      "single"
+    ],
+    //分号
+    "semicolon": [
+      false,
+      "always"
+    ],
+    "indent":[false, "tabs", 2] //使用Tab进行缩进，每次强制缩进2个字符
+  }
+}
